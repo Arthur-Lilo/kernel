@@ -30,6 +30,9 @@ OBJS	= \
 	  libvga.o \
 	  list.o \
 	  memory.o \
+	  src/write.o \
+
+
 
 
 DEPS = $(OBJS:.o=.d)
